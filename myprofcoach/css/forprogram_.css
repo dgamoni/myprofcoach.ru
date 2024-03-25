@@ -1,0 +1,286 @@
+/* = Media style for program
+------------------------------------------------------------------------- */
+
+
+/*--------------------  more 1218 ----------------------- */
+@media screen and (min-width:1219px) {
+
+
+
+}
+
+
+/*-------------------- 1170-1218 ----------------------- */
+@media screen and (min-width:1170px) and (max-width:1218px) {
+ 
+#forprogram.d980 {
+width: 100%;
+margin-left: 6%;
+}
+
+}
+
+/*-------------------- 1070-1170 ----------------------- */
+@media screen and (min-width:1071px) and (max-width:1169px) {
+
+#forprogram.d980 {
+width: 100%;
+margin-left: 2%;
+}
+#text-3.reveal-modal {
+ 
+left: 3%;}
+
+}
+
+/*-------------------- max 1070 ----------------------- */
+@media (max-width:1070px) {
+
+#forprogram.d980 {
+width: 100%;
+margin-left: 7px;
+}
+
+}
+
+/*--------------------  1024 x 768  ----------------------- */
+@media (max-width:1024px) {
+
+#forprogram.d980 {
+width: 100%;
+margin-left: -12px;
+}
+#text-3.reveal-modal {
+ 
+left: 0%;}
+#myform input.wpcf7-text {
+width: 71%;
+}
+
+}
+
+/*-------------------- 768 x 1024, 1000 x 1030 ----------------------- */
+
+@media screen and (min-width:751px) and (max-width:1007px) {
+
+.prog {
+-moz-transform: scale(0.7,0.7);
+-webkit-transform: scale(0.7,0.7);
+-o-transform: scale(0.7,0.7);
+-ms-transform: scale(0.7,0.7);
+ 
+margin-top: -57px;
+margin-bottom: -20px;
+}
+
+.van2, .van5, .van8, .van11 {margin-left: -98px;}
+.van3, .van6, .van9, .van12 {margin-left: -100px;
+margin-right: -61px;}
+#forprogram.d980 {
+margin-left: -38px;
+}
+
+/* baner*/
+.column1, .column2 {
+	width: 40%;
+	}
+.column2 .baner_title {
+    width: 84%;
+}
+.prog_baner {
+	padding-bottom: 19px;
+	height: 100% !important;
+}
+
+/*forma*/
+#text-3.reveal-modal {
+	width: 75%;
+}
+#myform_text {
+	margin-left: 56px;
+}
+#text-3.reveal-modal {
+	left: 7%;
+}
+#myform input.wpcf7-text {
+	width: 374px;
+}
+
+}
+
+/*-------------------- 680 x 690----------------------- */
+
+@media screen and (min-width:680px) and (max-width:750px) {
+
+/* baner*/
+.column1, .column2 {
+	width: 39%;
+	}
+.column2 .baner_title {
+    width: 84%;
+	margin-left: 5px;
+}
+.prog_baner {
+	padding-bottom: 19px;
+	height: 100% !important;
+}
+
+/*forma*/
+#text-3.reveal-modal {
+	width: 75%;
+}
+#myform_text {
+	margin-left:0px;
+}
+#text-3.reveal-modal {
+	left: 7%;
+}
+#myform input.wpcf7-text {
+	width: 374px;
+}
+
+}
+/*-------------------- 568 x 320, 595 x 610 ----------------------- */
+@media screen and (min-width:501px) and (max-width:679px) {
+	
+#forprogram.d980 {
+	margin-left: 17%;
+
+}
+.prog_baner {
+	margin-left: -20%;
+	padding-bottom: 19px;
+	height: 100% !important;
+}
+.column1, .column2 {
+width: 89%;
+}
+
+/*forma*/
+#text-3.reveal-modal {
+	width: 75%;
+}
+#myform_text {
+	margin-left:0px;
+}
+#text-3.reveal-modal {
+	left: 7%;
+}
+#myform input.wpcf7-text {
+	width: 374px;
+}
+#myform_text .wpcf7-textarea {
+
+width: 369px;}
+
+.frase_all {margin-left: -41px;}
+
+}
+/*-------------------- 480x 320 ----------------------- */
+
+@media  (max-width:500px) {
+.frase_all {margin-left: -41px;}
+
+
+.tlt, .tlt2 , .tlt3, .tlt4, .tlt5, .tlt6{
+-moz-transform: scale(0.7,0.7);
+-webkit-transform: scale(0.7,0.7);
+-o-transform: scale(0.7,0.7);
+-ms-transform: scale(0.7,0.7);
+margin-left: -80px;
+}
+
+
+
+.prog_baner {
+	 
+	padding-bottom: 19px;
+	height: 100% !important;
+}
+.column1, .column2 {
+width: 84%;
+}
+
+.column1 .baner_title, .column2 .baner_title {
+ 
+font-size: 90%;
+}
+.column2 .baner_title {
+width: 85%;
+}
+
+/*forma*/
+#text-3.reveal-modal {
+	width: 72%;
+}
+#myform_text {
+	margin-left:0px;
+}
+#text-3.reveal-modal {
+	left: 7%;
+}
+#myform input.wpcf7-text {
+	width: 300px;
+}
+#myform_text .wpcf7-textarea {
+
+width: 321px;}
+
+}
+
+/*--------------------  375x385 ----------------------- */
+
+@media  (max-width:400px) {
+	
+.tlt, .tlt2 , .tlt3, .tlt4, .tlt5, .tlt6{
+width: 153%;
+}
+.tlt, .tlt2  {
+ line-height: 26px;
+}
+	
+	#forprogram.d980 {
+
+margin-left: -26px;
+	}
+	
+	.prog_baner {
+	 padding-left: 7px;
+
+	padding-bottom: 19px;
+	height: 100% !important;
+}
+.column1, .column2 {
+width: 89%;
+}
+.column2 .baner_title {
+width: 83%;
+}
+
+/*forma*/
+#text-3.reveal-modal {
+	width: 72%;
+}
+#myform_text {
+	margin-left:0px;
+}
+#text-3.reveal-modal {
+	left: 1%;
+}
+#myform input.wpcf7-text {
+	width: 227px;
+}
+#myform_text .wpcf7-textarea {
+
+width: 252px;}
+
+}
+
+/*-------------------- 320 ----------------------- */
+
+@media  (max-width:320px) {
+	
+	
+
+}
+/*-------------------- end Media ----------------------- */

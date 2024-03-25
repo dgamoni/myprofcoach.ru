@@ -1,0 +1,32 @@
+
+/* =Font----- */
+@font-face {
+    font-family: 'AG_HelveticaBold';
+    src: url('font/12468.eot');
+    
+}
+
+@font-face {
+    font-family: 'AG_HelveticaRegular';
+    src: url('font/aghcr.eot');
+    
+}
+
+@font-face {
+    font-family: 'NewCenturySchoolbookCItalic';
+    src: url('font/newcenturyschoolbookc-it.eot');
+    
+}
+/* =end Font----- */
+
+ .carousel_2 {
+	margin-right: -6px;
+}
+
+.carousel_h, .touchcarousel.tc-layout-dgsmoni .touchcarousel-item h4 {
+	margin-right: -6px !important;
+}
+
+.frase_all ul li {
+margin-right: -34px;
+}

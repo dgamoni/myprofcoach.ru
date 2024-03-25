@@ -1,0 +1,92 @@
+for carousel program settings
+
+global
+------------
+width 1018px
+heigth 300px
+Blue & grey, outside
+preload files ON
+
+html
+----------
+[tco width="339" height="302"]thumbnail[/tco]
+	<div class="tc-block">
+        
+		<p class="tc-excerpt">[tco length="20"]content[/tco]</p>	
+	</div>
+
+css
+----------------------
+/* Use unique CSS selector to avoid conflicts */
+
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item {
+	width: 330px;
+	min-height: 290px;
+	margin-right: 11px;
+	position: relative;
+	overflow: hidden;
+	
+
+}
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item p {
+	margin: 0;
+	padding: 0;
+}
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item a.tc-state {
+	display: block;
+	width: 330px;
+	min-height: 290px;
+	position: relative;
+	text-decoration: none;
+	color: #3e4245;
+	
+	-webkit-transition: color 0.2s ease-out; 
+    -moz-transition: color 0.2s ease-out;  
+    -ms-transition: color 0.2s ease-out; 
+    -o-transition: color 0.2s ease-out; 
+    transition: color 0.2s ease-out;
+}
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item img {
+	max-width: none;
+	border: 0;
+	margin: 0;
+}
+
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item img, 
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item h4,
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item span {
+	position: relative;
+	margin: 0;
+	padding: 0;	
+	border: 0;			
+}
+
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item img {
+position: absolute;
+}
+.touchcarousel.tc-layout-dgsmoni .tc-block {
+	margin: 5px 40px 3px 26px;
+    opacity: .99;
+    color: white;
+    font-family: 'Helvetica Neue', Arial, serif;
+	font-size: 20px;
+}
+
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item h4 {
+	
+	line-height: 42px;
+	padding: 0;
+	text-decoration: none;
+	font-family: 'Helvetica Neue', Arial, serif;
+	font-size: 20px;
+    color: white;
+    padding-top: 3px;
+}
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item a.tc-state:hover {
+	color: #13937a;
+}
+.touchcarousel.tc-layout-dgsmoni .touchcarousel-item span {
+	font-size: 12px;
+	color: #666;
+}
+------------------------------
